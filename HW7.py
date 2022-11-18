@@ -34,7 +34,7 @@ def make_types_table(data, cur, conn):
         cur.execute("INSERT OR IGNORE INTO Types (id,type) VALUES (?,?)",(i,type_list[i]))
     conn.commit()
 
-## [TASK 1]: 20 points
+## [TASK 1]: 25 points
 # Finish the function make_pokemon_table
 
     # This function takes 3 arguments: JSON data,
